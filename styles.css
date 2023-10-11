@@ -1,0 +1,115 @@
+/* CSS HEX Lyon
+--xanthous: #EDB33Dff;
+--wheat: #EFD5B0ff;
+--feldgrau: #475E5Eff;
+--misty-rose: #E1D0D6ff;
+*/
+body { 
+    text-align: center;
+    color: #475E5E;
+    margin: auto;
+    font-family: cabin;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#hero-section {
+    background-image: url("images/fourviere.jpg");
+    background-size: cover;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+#hero-title {
+    color : white;
+    background-color: #475E5E;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+#hero-subtitle {
+    margin-top: 20px;
+    background-color: #E1D0D6;
+    border-radius: 10px;
+    width: 430px;
+    padding: 10px 50px;
+}
+
+#activities-section {
+    background-color: #f0e7ea;
+    height: 378px;
+}
+
+.img-activities {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding: 2px;
+}
+
+#main-block {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#title-activities {
+    padding-top : 50px;
+}
+
+.bloc-activities {
+    width: 198px;
+    height: 225px;
+    padding: 10px;
+}
+
+.bloc-activities:hover {
+    width: 198px;
+    height: 225px;
+    background-color: #EFD5B0;
+    border-radius: 10px;
+}
+
+#video-section {
+    background-color: #e1d0d6;
+}
+
+#video {
+    padding: 30px 0;
+}
+
+#guide-section {
+    width: 400px;
+    height: 294px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFD5B0;
+    margin: 50px auto;
+}
+
+#guide-section:hover {
+    background-color: #e1d0d6;
+    box-shadow: 12px 12px 2px 1px #ccccff;
+}
+
+#img-profil {
+    margin: 10px;
+    width: 170px;
+    border-radius: 10px;
+}
+
+#guide-description {
+    margin: 25px;
+}
